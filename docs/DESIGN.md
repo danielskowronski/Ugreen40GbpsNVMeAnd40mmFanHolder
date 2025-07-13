@@ -20,7 +20,7 @@ When looking from XZ side of the assembled holder, there are the following objec
 6. first part of disk before first disk plate
 7. first disk plate; distance between 2nd fan plate and 1st disk plate is sum of 4th, 5th and 6th elements here
 8. central part of the disk between 1st and 2nd disk plate (approx 67mm, but this is auto-calculated)
-9. second disk plate (3mm)
+9. second disk plate
 10. final part of the disk, ending with YZ back side of enclosure with air inlet and Thunderbolt connector (very likely equal to 6th element)
 
 Disk plates are not aligned with edges of the enclosure to provide safe tolerations and ensure the disk does not fall off them. 
