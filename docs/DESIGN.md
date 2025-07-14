@@ -72,7 +72,7 @@ Fan plate has the following cutouts:
 
 ![](./img/render-fan.png)
 
-### Disk plates
+### Disk plates - EDIT
 
 The disk plate has the following cutouts:
 

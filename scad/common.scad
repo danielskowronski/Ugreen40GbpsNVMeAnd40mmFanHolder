@@ -29,8 +29,11 @@ DiskHangingMargin=10; // Distance fron ensosure edge to disk plate edge (to ensu
 HoriToVertScrew="M3,12"; // Screw connecting horizontal and vertical plates
 HoriToVertScrewDistanceToEdge=VertPlateMargin+3; // Distnace from edge of horizontal plate to center of screw
 
+DiskFrameEdge=2; // how long should be supports for disk (v0.1.0 would be DiskWidth+DiskPadding)
+AirflowHoleDia=46;
+
 ConnNutHoleWidth=6;
-ConnNutHoleDepth=3;
+ConnNutHoleDepth=VertPlateMargin;
 ConnThreadHoleLenght=3;
 
 // Core structural dimensions - autocalculated, described in context of assembled holder
