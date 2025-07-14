@@ -4,7 +4,25 @@
 
 **To be described**
 
+- Hyper PLA-CF
+- 0.16mm layers
+- 2 wall loops
+- 10% cross-hatch in-fill
+- approx 51g of filament for full holder
+
 ## Assembly instructions
+
+### Preparation
+
+Holes for fan may be too tight, especially if you use 3D-printed screw (e.g. when you don't have such long screw at hand). If so, take short metal M4 screw and screw it in then out. Power drill may be helpful.
+
+Useful tools:
+
+- screwdrivers for screws
+- small, flat-blade screwdriver for keeping M3 nut in place in vertical plates
+- tweezers
+
+### Steps
 
 While top and bottom plates are identical, here one will be elected as top.
 
@@ -29,3 +47,9 @@ While top and bottom plates are identical, here one will be elected as top.
 15. Connect enclosure to computer, generate some load on disk, then disconnect fan and double check that enclosure fan blows in the same direction as fan; otherwise extra fan will be fighting built-in fan and may lead to overheating
 
 Hint: fan should be active even when disk (and host computer) is not, to cool it down after use. Use external power supply or ensure that you use always-powered USB port on computer.
+
+Alternatively, fan-related parts can be assembled first: 
+
+1. Hold in place: fan plate - fan - fan plate 
+2. Screw using M4 screws and nut
+3. Attach to top and then bottom plate like you'd work with individual fan plates

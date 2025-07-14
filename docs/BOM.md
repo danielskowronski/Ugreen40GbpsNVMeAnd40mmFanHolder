@@ -28,24 +28,26 @@ It's very important to note that parts of disk plate will be touching the alumin
 
 For mounting fan to two fan plates:
 
-1. 4x M4x30 screw, non-flat head (flat head is nicer but requires changing one of fan plates)
-2. 4x M4 washer
-3. 4x M4 nut
+1. 4x M4x38 or M4x40 screw, non-flat head (flat head is nicer but requires changing one of fan plates)
+2. 4x M4 nut
 
 For connecting all the four plates (2x fan and 2x disk plates) to top and bottom plates:
 
-1. 16x M3x12mm screw with flat head
+1. 16x M3x8 or M3x10 screw with flat head
 2. 16x M3 nut
 
 Optionally, for vertical stacking (between each instance):
 
 1. 3x M3x12mm screw with non-flat head
 2. 3x M3 nut
-3. 3x M3 washer
+3. 6x M3 washer
 
 Options for placing on flat surfaces:
 
 - self-adhesive Velcro, for example 20mm wide tape from TESA, requires 2 strip pairs of length **to be determined**
 - self-adhesive strips, for example 2x medium 3M Command should fit
 - 4x self-adhesive rubber feet
-  
+
+Optionally:
+
+- Kapton tape to wrap around enclosure on contact point to make it sit tightly

@@ -17,11 +17,12 @@ Main objective is keeping drive in natural position (largest plane parallel to s
 - [x] all fixed parts measured, initial dimensions of parametric parts planned
 - [x] structure of SCAD code, base variables set, primitive initial version of top/bottom and virtual vertical plates
 - [ ] sync of SCAD dimensions variables and design docs, including full explanation for each of them, replace `to be determined` in this doc
-- [.] working version of top/bottom plate - code, test print, dimensions fitting
-- [.] working version of disk plate - code, test print, dimensions fitting
-- [.] working version of fan plate - code, test print, dimensions fitting
-- [ ] docs updated with images explaining complex text descriptions of 3D objects (based on prototype renders)
-- [ ] assembly of all parts, testing connections and fit to external objects
+- [x] working version of top/bottom plate - code, test print, dimensions fitting
+- [x] working version of disk plate - code, test print, dimensions fitting
+- [x] working version of fan plate - code, test print, dimensions fitting
+- [x] docs updated with images explaining complex text descriptions of 3D objects (based on prototype renders)
+- [x] assembly of all parts, testing connections and fit to external objects
+- [ ] modify disk plates to enable any form of airflow along enclosure
 - [ ] final object code improvements
 - [ ] final print, finalization of print settings and materials
 - [ ] photos and model publication on Printables.com

@@ -10,6 +10,8 @@ Holder is split into 6 parts, but there are only 3 different sub-objects and eac
 
 Each part type will be described as it lies flat on the print bed. This means that top/bottom plate stays laying on XY plane as when assembled, but fan and disk plates are rotated - assembled YZ plane becomes XY plane when printed and described.
 
+![](./img/render-full-top.png)
+
 When looking from XZ side of the assembled holder, there are the following objects parallel to the Z axis:
 
 1. first fan plate
@@ -22,6 +24,8 @@ When looking from XZ side of the assembled holder, there are the following objec
 8. central part of the disk between 1st and 2nd disk plate (approx 67mm, but this is auto-calculated)
 9. second disk plate
 10. final part of the disk, ending with YZ back side of enclosure with air inlet and Thunderbolt connector (very likely equal to 6th element)
+
+![](./img/render-full-side.png)
 
 Disk plates are not aligned with edges of the enclosure to provide safe tolerations and ensure the disk does not fall off them. 
 
@@ -66,6 +70,8 @@ Fan plate has the following cutouts:
 3. extra cutouts on left and right side of fan hole
 4. theoretical cutouts above and below fan
 
+![](./img/render-fan.png)
+
 ### Disk plates
 
 The disk plate has the following cutouts:
@@ -79,6 +85,8 @@ The disk plate has the following cutouts:
 
 Additionally, it has markings from near the main hole (from both sides of hole and plate) that indicate where the bottom of the drive should be inserted. The exact position is **to be determined** based on X axis alignment requirement.
 
+![](./img/render-disk.png)
+
 ## Known limitations
 
 1. Airflow is very simplistic; holder was designed to add extra fan as support for built-in one and slightly pull hot air radiating from bottom surface (the one that acts as heat sink for NVMe disk); since this enclosure seems to keep temperatures within my disk ranges (although on higher end) and I don't have knowledge in fluid mechanics I'm not implementing any extra parts yet
@@ -87,3 +95,4 @@ Additionally, it has markings from near the main hole (from both sides of hole a
 4. In current form, only fixed speed fans make sense, as there's no holder for thermal probe and fan controller in 3D object; moreover, it makes more sense to have one multichannel controller for stackable disk array than to duplicate it and incorporate in every holder
 5. Fan power is outside the scope of this project, USB to 3pin / 4pin PWM fan power supplies are widely available (mind the voltage as some fans are 5V and some are 12V, but their connectors are the same)
 6. This holder only ensures extra space is kept between enclosure and any adjacent objects (like desk surfaces) and adds fan for stronger airflow; it does not enhance actual heat dissipation - this could be achieved by attaching extra radiators on top and bottom surfaces of enclosure (e.g. using double-sided thermal tape), but it could require tweaking positions of disk plates
+7. Currently, airflow doesn't cover enclosure exterior

@@ -14,3 +14,5 @@ translate([DiskHangingMiddle+VPH,0,0]) rotate([0,90,0]) DP_Base();
 
 
 translate([0,0,-VPD]) mirror([0,0,1])  HP_Hollowed();
+
+/* viewport: rotation: 30,0,120 */

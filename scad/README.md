@@ -19,10 +19,6 @@ part short names (derived from assembled object):
   - FP - Fan Plate
   - DP - Disk Plate
 
-`[HVFD]P[HWD]` dimension variable describes horizonta/vertical/fan/disk plate height/width/depth according to part dimensions
+`[HVFD]P[HWD]` dimension variable describes horizontal/vertical/fan/disk plate height/width/depth according to part dimensions
 
-## notes to sync
-
-- change docs to reflect that only render.scad actually renders
-- new naming convention
-- 
+**work in progress**
