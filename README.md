@@ -1,8 +1,8 @@
 # UGREEN 40Gbps M.2 NVMe Enclosure and 40mm Fan Holder - 3D Parametric Model
 
-**Work in progress**
-
 3D Parametric Model (OpenSCAD) of holder for [UGREEN 40Gbps M.2 NVMe Enclosure](https://web.archive.org/web/20250118234648/https://www.ugreen.com/products/ugreen-40gbps-m-2-nvme-enclosure-with-cooling-fan) and standard 40mm PC fan. 
+
+3D model files and print photos hosted on [printables.com/model/1358090-ugreen-40gbps-m2-nvme-enclosure-and-40mm-fan-holde](https://www.printables.com/model/1358090-ugreen-40gbps-m2-nvme-enclosure-and-40mm-fan-holde).
 
 ## Objective
 
@@ -25,9 +25,10 @@ Main objective is keeping drive in natural position (largest plane parallel to s
 - [x] modify disk plates to enable any form of airflow along enclosure
 - [x] explain how images are rendered
 - [x] explain how code is structured, remove scad/README.md
-- [-] final object code improvements
+- [x] final object code improvements
 - [x] final print, finalization of print settings and materials
-- [ ] photos and model publication on Printables.com
+- [x] photos and model publication on Printables.com
+- [ ] further improvements
 
 ## Repository structure
 
@@ -38,4 +39,4 @@ Main objective is keeping drive in natural position (largest plane parallel to s
    4. [Printing and assembly](./docs/ASSEMBLY.md)
    4. [SCAD code](./docs/SCAD.md)
 2. [`scad`](./scad/) directory with OpenSCAD source code that uses [BOSL2](https://github.com/BelfrySCAD/BOSL2) library (see [SCAD.md](./docs/SCAD.md))
-3. Printables.com model with parts rendered into STL, printer settings and photos of assembled holder.
+3. [Printables.com model](https://www.printables.com/model/1358090-ugreen-40gbps-m2-nvme-enclosure-and-40mm-fan-holde) with parts rendered into STL, printer settings and photos of assembled holder.

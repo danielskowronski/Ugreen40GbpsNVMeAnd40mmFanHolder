@@ -50,6 +50,8 @@ Additionally, top/bottom plates are hollowed out in a way that keeps the plate r
 
 Height / thickness is 3mm (`HoriPlateThick`), which is arbitrary. Width is determined by width of vertical plates (`HPW=VPW`; effectively the largest hole + margins) and sum of dimensions from vertical plates and distances (`HPD`).
 
+![](./img/render-top.png)
+
 ### Virtual vertical plates
 
 Fan and disk holder plates are based of the same "virtual vertical plate" model (*virtual* as in C++ virtual function). Here the base model will be described, it'll not be rendered for printing, but fan and disk plates will use it as base for adding their holes. It is also a flat cuboid, but only has 4 sets of holes. Each hole set is placed around the corner of the plate and consists of:
