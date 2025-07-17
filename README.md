@@ -16,15 +16,17 @@ Main objective is keeping drive in natural position (largest plane parallel to s
 - [x] design and layout of parts described, BOM prepared
 - [x] all fixed parts measured, initial dimensions of parametric parts planned
 - [x] structure of SCAD code, base variables set, primitive initial version of top/bottom and virtual vertical plates
-- [ ] sync of SCAD dimensions variables and design docs, including full explanation for each of them, replace `to be determined` in this doc
+- [x] sync of SCAD dimensions variables and design docs, including full explanation for each of them, replace `to be determined` in this doc
 - [x] working version of top/bottom plate - code, test print, dimensions fitting
 - [x] working version of disk plate - code, test print, dimensions fitting
 - [x] working version of fan plate - code, test print, dimensions fitting
 - [x] docs updated with images explaining complex text descriptions of 3D objects (based on prototype renders)
 - [x] assembly of all parts, testing connections and fit to external objects
-- [ ] modify disk plates to enable any form of airflow along enclosure
-- [ ] final object code improvements
-- [ ] final print, finalization of print settings and materials
+- [x] modify disk plates to enable any form of airflow along enclosure
+- [x] explain how images are rendered
+- [x] explain how code is structured, remove scad/README.md
+- [-] final object code improvements
+- [x] final print, finalization of print settings and materials
 - [ ] photos and model publication on Printables.com
 
 ## Repository structure
@@ -32,11 +34,8 @@ Main objective is keeping drive in natural position (largest plane parallel to s
 1. Documentation:
    1. [Design](./docs/DESIGN.md) - introduction to general "architecture" and description of parts, known limitations
    2. [BOM](./docs/BOM.md) - printable and non-printable parts with their dimensions (Bill Of Materials)
-   3. [Printing and assembly](./docs/ASSEMBLY.md)
-2. [`scad`](./scad/) directory with OpenSCAD source code that uses [BOSL2](https://github.com/BelfrySCAD/BOSL2) library:
-   1. [`common.scad`](./scad/common.scad) with global dimension variables and modules for base cuboids used by top/bottom and fan/disk plates
-   2. [`xy.scad`](./scad/xy.scad) with module for top/bottom plate, relevant helper variables and modules; it also renders top/bottom plate
-   3. [`yz.scad`](./scad/yz.scad) with virtual vertical plate module
-   4. [`fan.scad`](./scad/fan.scad) with module for fan plates, relevant helper variables and modules; it also renders fan plate
-   5. [`disk.scad`](./scad/disk.scad) with module for disk plates, relevant helper variables and modules; it also renders disk plate
+   3. [Important notes on material (filament)](./docs/MATERIAL.md)
+   4. [Printing and assembly](./docs/ASSEMBLY.md)
+   4. [SCAD code](./docs/SCAD.md)
+2. [`scad`](./scad/) directory with OpenSCAD source code that uses [BOSL2](https://github.com/BelfrySCAD/BOSL2) library (see [SCAD.md](./docs/SCAD.md))
 3. Printables.com model with parts rendered into STL, printer settings and photos of assembled holder.

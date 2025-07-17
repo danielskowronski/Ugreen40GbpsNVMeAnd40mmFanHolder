@@ -1,4 +1,4 @@
-include <xy.scad>
+include <vertical.scad>
 
 module FanScrewHole(){
   translate([VPD/2,VPW/2,0])
@@ -6,7 +6,7 @@ module FanScrewHole(){
 }
 
 module FP_Base(){
-  color("green")
+  color("lightgreen")
   difference(){
     VP_Full();
     

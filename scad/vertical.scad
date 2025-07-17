@@ -3,12 +3,14 @@ include <common.scad>
 
 ETS=HoriToVertScrewDistanceToEdge; // Edge to Screw center
 
-
+module VP_Base(){
+  cuboid([VPD, VPW, VPH], anchor=LEFT+FRONT+BOTTOM);
+}
 module VP_ConnHoles(){
   translate([ConnThreadHoleLenght,0,VPH/2])
-    rotate([0,-90,0])
+    rotate([0,-90,0]){
       screw_hole(HoriToVertScrew, anchor=BOTTOM);
-      //cylinder(ConnThreadHoleLenght, ConnThreadHoleDia/2, ConnThreadHoleDia/2);
+    }
 
     translate([ConnThreadHoleLenght,0,0])
     cuboid([ConnNutHoleDepth, ConnNutHoleWidth, VPH], anchor=LEFT+BOTTOM);
@@ -24,7 +26,7 @@ module VP_Half(){
 }
 
 module VP_Full(){
-  // hack to replicate holes
+  // trick to render full plate without rotating individual screw holes, see note in SCAD.md#vertical.scad
   intersection(){
     VP_Half();
     translate([VPD,0,0])

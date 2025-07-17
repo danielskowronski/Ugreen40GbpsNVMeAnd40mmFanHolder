@@ -2,12 +2,18 @@ include <common.scad>
 
 ETS=HoriToVertScrewDistanceToEdge; // Edge to Screw center
 
-module HP_ScrewPair(distToBack){
+module HP_Base() {
+  cuboid([HPD, HPW, HPH], anchor=LEFT+FRONT+BOTTOM);
+}
+module HVP_Screw(){
+  screw_hole(HoriToVertScrew, head="flat", anchor=TOP);
+}
 
-      translate([distToBack,0,0]){ 
-        translate([0,ETS,0]) HVP_Screw();
-        translate([0,HPW-ETS,0]) HVP_Screw();
-      }
+module HP_ScrewPair(distToBack){
+  translate([distToBack,0,0]){ 
+    translate([0,ETS,0]) HVP_Screw();
+    translate([0,HPW-ETS,0]) HVP_Screw();
+  }
 }
 
 module HP_Full(){

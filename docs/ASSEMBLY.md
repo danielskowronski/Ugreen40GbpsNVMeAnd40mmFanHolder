@@ -2,19 +2,19 @@
 
 ## Printing
 
-**To be described**
+My setup for printing on Creality K1C:
 
-- Hyper PLA-CF
+- *Hyper PLA-CF* -> see [MATERIAL.md](./MATERIAL.md) !!!
 - 0.16mm layers
 - 2 wall loops
 - 10% cross-hatch in-fill
-- approx 51g of filament for full holder
+- approx 46g of filament for full holder
 
 ## Assembly instructions
 
 ### Preparation
 
-Holes for fan may be too tight, especially if you use 3D-printed screw (e.g. when you don't have such long screw at hand). If so, take short metal M4 screw and screw it in then out. Power drill may be helpful.
+Holes for the fan may be too tight, especially if you use 3D-printed screw (e.g. when you don't have such long screw at hand). If so, take a short metal M4 screw and screw it in, then out. A power drill may be helpful.
 
 Useful tools:
 
@@ -40,7 +40,7 @@ While top and bottom plates are identical, here one will be elected as top.
 8. Insert four M4 screws into fan plates and fan, starting from side of object
 9. Place M4 washers and nuts inside (between fan and disk plate - this may require large tweezers or long nose pliers)
 10. Tighten fan screws
-11. Insert NVMe enclosure without rubber bumper from the back keeping bottom of it (air outlet and Thunderbolt connector are on bottom) aligned with markings on disk plate; ensure you insert it straight so it fits both disk plates
+11. Insert NVMe enclosure without rubber bumper from the back: Thunderbolt connector should not face fan, but no observable differences whether it's on top or bottom (i.e. enclosure can be positioned naturally or upside-down)
 12. Position enclosure depth, so there are a few millimetres between it and fan plate
 13. Attach optional adhesives to top/bottom plate that will be touching the desk/bench/shelf
 14. Connect fan and ensure it blows outside - air from around enclosure should be sucked outside
